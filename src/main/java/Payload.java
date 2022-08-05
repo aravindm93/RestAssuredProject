@@ -43,4 +43,14 @@ public class Payload {
                 "}";
 
     }
+
+    public static String addBookPayload(String isbn, String aisle){
+        String payload = "{\n" +
+                "    \"name\": \"Learn Selenuium Automation with Java\",\n" +
+                "    \"isbn\": \""+isbn+"\",\n" +
+                "    \"aisle\": \""+aisle+"\",\n" +
+                "    \"author\": \"John foe\"\n" +
+                "}";
+        return payload;
+    }
 }
